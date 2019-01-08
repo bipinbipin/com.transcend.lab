@@ -12,7 +12,7 @@
             var resultElement = document.getElementById('getResult1');
             resultElement.innerHTML = '';
 
-            axios.get('http://dmz-middle:8080/api/accounts/')
+            axios.get('http://10.196.1.79:8080/api/accounts/')
                 .then(function (response) {
                     console.log(response);
                     resultElement.innerHTML = generateSuccessHTMLOutput(response);
