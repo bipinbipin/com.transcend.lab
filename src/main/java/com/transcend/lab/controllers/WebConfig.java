@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-@Profile("web")
+@Profile("middle")
 public class WebConfig implements WebMvcConfigurer {
 
     @Override
