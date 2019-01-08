@@ -13,8 +13,14 @@ public class WebController {
         return "login";
     }
 
+    @GetMapping("index")
+    public String index() {
+        return "login";
+    }
+
     @GetMapping("/accounts")
     public String accounts() {
         return "accounts";
     }
+
 }
